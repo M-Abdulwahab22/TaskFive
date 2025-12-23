@@ -14,4 +14,14 @@ public class Car extends Vehicle{
        return super.toString() + " 2019";
     }
 
+    public static String[] getManufacturerName()
+    {
+        return manufacturerName;
+    }
+
+    public static int getCarCount()
+    {
+        return carCount;
+    }
+
 }

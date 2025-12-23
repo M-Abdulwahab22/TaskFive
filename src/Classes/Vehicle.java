@@ -13,10 +13,11 @@ public class Vehicle implements PriceAdmin, VehicleAdmin {
     {
         Wheel.setColor("black");
 
-        for(Wheel w : warr)
-        {
-            w.setSize(18);
-        }
+      for(int i = 0; i < warr.length; i++)
+      {
+          warr[i] = new Wheel();
+          warr[i].setSize(18);
+      }
 
        e = new Engine();
     }

@@ -14,9 +14,9 @@ public class Wheel {
         return this.size;
     }
 
-    public static void setColor(String colorParameter)
+    public static void setColor(String color)
     {
-        color = colorParameter;
+        Wheel.color = color;
     }
 
     public static String getColor()

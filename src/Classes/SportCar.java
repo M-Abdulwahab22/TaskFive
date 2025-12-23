@@ -35,7 +35,7 @@ public class SportCar extends Car{
 
     }
 
-    public boolean equales(SportCar obj)
+    public boolean equals(SportCar obj)
     {
         if(this.e.getPowerEngine() == obj.e.getPowerEngine() )
         {

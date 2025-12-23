@@ -18,6 +18,10 @@ public class Vehicle implements PriceAdmin, VehicleAdmin {
           warr[i] = new Wheel();
           warr[i].setSize(18);
       }
+      for(int i = 0; i < sarr.length; i++)
+      {
+          sarr[i] = new Seat();
+      }
 
        e = new Engine();
     }
